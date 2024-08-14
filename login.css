@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+.inputField{background: rgb(230, 227, 224);
+            margin-bottom: 20px;
+            font-size: 20px ;
+            border:black solid 1px;
+            border-radius: 10px;
+            width:550px;
+            margin-left: 20px;
+          
+            
+}
+input{
+background-color: rgb(192, 208, 208);
+margin-left: 20px;
+
+}
+.title{padding: 30px 20px 30px 20px; /*top left bottom right ou 30 20*/
+text-align: center;
+background-color: rgb(6, 6, 88);
+color: rgb(177, 192, 204);
+border-style: double;
+border-color: rgb(156, 175, 192);
+
+
+}
+#nameField{
+margin-top: 25px;
+}
+.txt{
+margin-left: 20px;
+font-size: medium;
+}
+

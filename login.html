@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/form.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="title">Welcome back dear user </h1>
+    <hr>
+    <form action="index.html">
+   <div id="nameField" class="inputField">
+        <label for="" class="txt">Enter your name</label>
+        <input type="text" value="Jhon Doe" required>
+   </div>
+    
+   <div id="emailField" class="inputField">
+        <label for="" class="txt">Enter you Email adress</label>
+        <input type="email" required>
+    </div>  
+    <div class="inputField">
+        <label for="" class="txt">Enter your password</label>
+        <input type="password" required>
+    </div>
+    <div class="inputField">
+       <label for="" class="txt">Enter your birth date </label>
+        <input type="date">
+    </div>
+    <div class="inputField">
+        <label for="" class="txt">Entrer votre etat civil</label>
+        <input type="checkbox" name="etat">Célibataire
+        <input type="checkbox" name="etat">En couple 
+        <input type="checkbox" name="etat">Marié
+    </div>
+    <div class="inputField">
+       <label for="" class="txt">Enter your gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+    </div>
+    <div class="inputField">
+        <label for="" class="txt">What bootcamp you wanna register in</label>
+    <select>
+        <option  value="PY"> Bootcamp Python</option>
+        <option  value="DEV"> Bootcamp devloppement web</option>
+        <option  value="UX"> Bootcamp UX design</option>
+    </select>
+    </div>  
+     <div class="inputField">
+
+    <label for="" class="txt">if you have a problem please tell us</label>
+    <br>
+    <textarea rows="10" cols="40" > Don't hesitate tell us
+    </textarea>
+</div>   
+       
+    <button type="submit">login</button>
+    <button type="reset">reset</button>
+        <hr>
+    </form>
+    
+</body>
+</html>
